@@ -1,84 +1,78 @@
-# cisco-data-science-journey
-(
-echo # 🎯 Network Security Analytics Platform
-echo.
-echo **A comprehensive machine learning platform for real-time network intrusion detection and security analytics.**
-echo.
-echo ---
-echo.
-echo ## 🚀 Project Overview
-echo.
-echo This project demonstrates enterprise-grade network security analytics using machine learning techniques. Built as part of my data science journey targeting cybersecurity roles at companies like Cisco.
-echo.
-echo ### 🎯 Business Objectives
-echo - **Real-time threat detection**: Identify network intrusions as they happen
-echo - **Behavioral analytics**: Detect insider threats and anomalous user behavior
-echo - **Executive insights**: Provide C-level security posture dashboards
-echo - **Operational efficiency**: Reduce false positives and response times
-echo.
-echo ### 📊 Technical Highlights
-echo - **Dataset**: KDD Cup 1999 Network Intrusion Detection ^(22,544 records, 41 features^)
-echo - **ML Techniques**: Classification, anomaly detection, time series analysis
-echo - **Deployment**: AWS cloud infrastructure with real-time API
-echo - **Dashboards**: Executive and SOC analyst interfaces
-echo.
-echo ## 🏗️ Architecture
-echo.
-echo ```
-echo Raw Network Logs → ETL Pipeline → Feature Engineering → ML Models → Real-time API → Dashboards
-echo ```
-echo.
-echo ## 📁 Project Structure
-echo.
-echo ```
-echo ├── data/                 # Dataset management
-echo ├── notebooks/            # Analysis and experimentation
-echo ├── src/                  # Production code
-echo ├── models/               # Trained models
-echo ├── reports/              # Dashboards and documentation
-echo ├── config/               # Configuration files
-echo ├── deployment/           # AWS and Docker configs
-echo └── tests/                # Unit and integration tests
-echo ```
-echo.
-echo ## 🚀 Quick Start
-echo.
-echo ```bash
-echo # Clone repository
-echo git clone [https://github.com/yourusername/cisco-data-science-journey](https://github.com/yourusername/cisco-data-science-journey)
-echo cd cisco-data-science-journey
-echo.
-echo # Install dependencies
-echo pip install -r requirements.txt
-echo.
-echo # Run analysis
-echo jupyter notebook notebooks/01_data_ingestion_etl.ipynb
-echo ```
-echo.
-echo ## 📈 Current Progress
-echo.
-echo - [x] Data ingestion and ETL pipeline
-echo - [x] Exploratory data analysis
-echo - [ ] Feature engineering
-echo - [ ] Model development
-echo - [ ] Real-time API
-echo - [ ] Dashboard deployment
-echo.
-echo ## 🎯 Business Impact
-echo.
-echo - **Detection Accuracy**: Target 95%+ attack identification
-echo - **Response Time**: ^<1 second real-time processing
-echo - **Cost Savings**: Estimated 40% reduction in security incident response
-echo - **Scalability**: Designed for enterprise-level network traffic
-echo.
-echo ## 📞 Contact
-echo.
-echo **[Your Name]** - Aspiring Data Scientist
-echo 📧 [your.email@domain.com]
-echo 🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
-echo 🐙 [GitHub](https://github.com/yourusername)
-echo.
-echo ---
-echo.
-echo *Built with ❤️ for cybersecurity and data science*
-) > README.md
+# 🎯 Network Security Analytics Platform
+
+**A comprehensive machine learning platform for real-time network intrusion detection and security analytics.**
+
+---
+
+## 🚀 Project Overview
+
+This project demonstrates enterprise-grade network security analytics using machine learning techniques. Built as part of my data science journey targeting cybersecurity roles at companies like Cisco.
+
+### 🎯 Business Objectives
+- **Real-time threat detection**: Identify network intrusions as they happen
+- **Behavioral analytics**: Detect insider threats and anomalous user behavior
+- **Executive insights**: Provide C-level security posture dashboards
+- **Operational efficiency**: Reduce false positives and response times
+
+### 📊 Technical Highlights
+- **Dataset**: KDD Cup 1999 Network Intrusion Detection (22,544 records, 41 features)
+- **ML Techniques**: Classification, anomaly detection, time series analysis
+- **Deployment**: AWS cloud infrastructure with real-time API
+- **Dashboards**: Executive and SOC analyst interfaces
+
+## 🏗️ Architecture
+
+Raw Network Logs → ETL Pipeline → Feature Engineering → ML Models → Real-time API → Dashboards
+
+
+## 📁 Project Structure
+
+├── data/                 # Dataset management
+├── notebooks/            # Analysis and experimentation
+├── src/                  # Production code
+├── models/               # Trained models
+├── reports/              # Dashboards and documentation
+├── config/               # Configuration files
+├── deployment/           # AWS and Docker configs
+└── tests/                # Unit and integration tests
+
+
+## 🚀 Quick Start
+
+```bash
+# Clone repository
+git clone [https://github.com/suryaprakash737/cisco-data-science-journey](https://github.com/suryaprakash737/cisco-data-science-journey)
+cd cisco-data-science-journey
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run analysis
+jupyter notebook notebooks/01_data_ingestion_etl.ipynb
+📈 Current Progress
+[x] Data ingestion and ETL pipeline
+
+[x] Exploratory data analysis
+
+[ ] Feature engineering
+
+[ ] Model development
+
+[ ] Real-time API
+
+[ ] Dashboard deployment
+
+🎯 Business Impact
+Detection Accuracy: Target 95%+ attack identification
+
+Response Time: <1 second real-time processing
+
+Cost Savings: Estimated 40% reduction in security incident response
+
+Scalability: Designed for enterprise-level network traffic
+
+📞 Contact
+SURYAPRAKASH UPPALAPATI - Aspiring Data Scientist
+📧 suppala6@gmu.edu
+🔗 LinkedIn
+🐙 GitHub
