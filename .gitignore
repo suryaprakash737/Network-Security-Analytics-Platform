@@ -1,4 +1,8 @@
-# Python
+# === PRIVATE MATERIALS ===
+SourceMaterial/
+.SourceMaterial/
+
+# === PYTHON ===
 __pycache__/
 *.py[cod]
 *$py.class
@@ -19,11 +23,24 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# Jupyter Notebook
+# === JUPYTER NOTEBOOKS ===
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
 
-# Environment variables
+# === DATA SCIENCE ===
+*.csv
+*.xlsx
+*.h5
+*.pkl
+*.pickle
+data/processed/*
+!data/processed/.gitkeep
+models/trained/*
+!models/trained/.gitkeep
+
+# === ENVIRONMENTS ===
 .env
 .venv
 env/
@@ -32,30 +49,31 @@ ENV/
 env.bak/
 venv.bak/
 
-# IDE
+# === IDE ===
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
-# Data files (optional - uncomment if you want to exclude large datasets)
-# *.csv
-# *.xls
-# *.xlsx
-# *.json
-# Test_data.xls
-# Train_data.xls
-
-# OS
+# === OS ===
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# Archives
-archive/
-*.zip
-*.rar
-*.7z
-
-# Logs
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+tempCodeRunnerFile.*
 *.log
-logs/
+
+# === DEPLOYMENT ===
+*.zip
+*.tar.gz
+*.war
+*.nar
+*.ear
