@@ -27,6 +27,7 @@ Raw Network Logs → ETL Pipeline → Feature Engineering → ML Models → Real
 
 ## 📁 Project Structure
 
+```
 ├── data/                 # Dataset management
 ├── notebooks/            # Analysis and experimentation
 ├── src/                  # Production code
@@ -35,6 +36,7 @@ Raw Network Logs → ETL Pipeline → Feature Engineering → ML Models → Real
 ├── config/               # Configuration files
 ├── deployment/           # AWS and Docker configs
 └── tests/                # Unit and integration tests
+```
 
 
 ## 🚀 Quick Start
