@@ -75,6 +75,6 @@ Scalability: Designed for enterprise-level network traffic
 
 📞 Contact
 SURYAPRAKASH UPPALAPATI - Aspiring Data Scientist
-📧 suppala6@gmu.edu
-🔗  [LinkedIn](https://www.linkedin.com/in/suryaprakashuppalapati)
+📧 [suryaprakshu55@gmail.com](mailto:suryaprakshu55@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/suryaprakashuppalapati)  
 🐙 [GitHub](https://github.com/suryaprakash737)
