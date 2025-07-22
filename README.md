@@ -35,36 +35,36 @@
 ## 🚀 **Platform Screenshots - Enterprise Security Analytics**
 
 ### **🔒 Security Command Center - Real-Time Operations**
-![Security Command Center Overview](reports/dashboards/screenshots/security_command_center_overview.png)
+![Security Command Center Overview](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/security_command_center_overview.png)
 *Industry-leading 99.1% accuracy with real-time threat detection and $9.3M daily cost savings*
 
-![Security Command Center Details](reports/dashboards/screenshots/security_command_center_details.png)
+![Security Command Center Details](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/security_command_center_details.png)
 *Live threat monitoring table with ML confidence scoring and comprehensive security feature analysis*
 
 ### **📋 Executive Briefing - C-Level Strategic Intelligence**
-![Executive Security Posture](reports/dashboards/screenshots/executive_briefing_posture.png)
+![Executive Security Posture](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/executive_briefing_posture.png)
 *Strategic security posture assessment showing "EXCEPTIONAL" threat management and industry-leading competitive position*
 
-![Executive Security Events](reports/dashboards/screenshots/executive_briefing_events.png)
+![Executive Security Events](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/executive_briefing_events.png)
 *24-hour executive summary with major achievements and competitive advantage metrics*
 
-![Strategic Threat Forecast](reports/dashboards/screenshots/executive_briefing_forecast.png)
+![Strategic Threat Forecast](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/executive_briefing_forecast.png)
 *7-day predictive threat intelligence and financial impact forecasting for proactive resource planning*
 
-![Strategic Recommendations](reports/dashboards/screenshots/executive_briefing_recommendations.png)
+![Strategic Recommendations](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/executive_briefing_recommendations.png)
 *Executive action items, compliance status, and board-ready talking points for leadership*
 
 ### **📊 Analytics Deep Dive - Technical Excellence**
-![Model Performance Analysis](reports/dashboards/screenshots/analytics_model_performance.png)
+![Model Performance Analysis](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/analytics_model_performance.png)
 *Detailed ML model metrics showing 99.1% accuracy, 99.2% recall, and $9.7B annual savings*
 
-![Feature Engineering Analysis](reports/dashboards/screenshots/analytics_feature_importance.png)
+![Feature Engineering Analysis](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/analytics_feature_importance.png)
 *Security feature importance analysis with src_bytes (30.5%) as the top threat detection indicator*
 
-![Attack Pattern Intelligence](reports/dashboards/screenshots/analytics_attack_patterns.png)
+![Attack Pattern Intelligence](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/analytics_attack_patterns.png)
 *Advanced threat intelligence showing attack type distribution and detection performance analysis*
 
-![Industry Benchmark Comparison](reports/dashboards/screenshots/analytics_industry_comparison.png)
+![Industry Benchmark Comparison](https://raw.githubusercontent.com/suryaprakash737/cisco-data-science-journey/main/reports/dashboards/screenshots/analytics_industry_comparison.png)
 *Radar chart demonstrating industry-leading performance across all security metrics vs competitors*
 
 ```bash
