@@ -32,29 +32,50 @@
 
 ---
 
-## 🚀 **Live Demo & Screenshots**
+## 🚀 **Platform Screenshots - Enterprise Security Analytics**
 
-### **🔒 Security Command Center - Real-Time Threat Detection**
-![Security Command Center](docs/screenshots/security_command_center.png)
-*99.1% accuracy threat detection with real-time monitoring and business impact metrics*
+### **🔒 Security Command Center - Real-Time Operations**
+![Security Command Center Overview](reports/dashboards/screenshots/security_command_center_overview.png)
+*Industry-leading 99.1% accuracy with real-time threat detection and $9.3M daily cost savings*
 
-### **📋 Executive Briefing - C-Level Strategic Intelligence**  
-![Executive Briefing](docs/screenshots/executive_briefing.png)
-*Strategic security posture with competitive analysis and board-ready ROI metrics*
+![Security Command Center Details](reports/dashboards/screenshots/security_command_center_details.png)
+*Live threat monitoring table with ML confidence scoring and comprehensive security feature analysis*
 
-### **📊 Analytics Deep Dive - Technical Performance Analysis**
-![Analytics Deep Dive](docs/screenshots/analytics_deep_dive.png)
-*Feature importance analysis and model performance breakdown for technical stakeholders*
+### **📋 Executive Briefing - C-Level Strategic Intelligence**
+![Executive Security Posture](reports/dashboards/screenshots/executive_briefing_posture.png)
+*Strategic security posture assessment showing "EXCEPTIONAL" threat management and industry-leading competitive position*
+
+![Executive Security Events](reports/dashboards/screenshots/executive_briefing_events.png)
+*24-hour executive summary with major achievements and competitive advantage metrics*
+
+![Strategic Threat Forecast](reports/dashboards/screenshots/executive_briefing_forecast.png)
+*7-day predictive threat intelligence and financial impact forecasting for proactive resource planning*
+
+![Strategic Recommendations](reports/dashboards/screenshots/executive_briefing_recommendations.png)
+*Executive action items, compliance status, and board-ready talking points for leadership*
+
+### **📊 Analytics Deep Dive - Technical Excellence**
+![Model Performance Analysis](reports/dashboards/screenshots/analytics_model_performance.png)
+*Detailed ML model metrics showing 99.1% accuracy, 99.2% recall, and $9.7B annual savings*
+
+![Feature Engineering Analysis](reports/dashboards/screenshots/analytics_feature_importance.png)
+*Security feature importance analysis with src_bytes (30.5%) as the top threat detection indicator*
+
+![Attack Pattern Intelligence](reports/dashboards/screenshots/analytics_attack_patterns.png)
+*Advanced threat intelligence showing attack type distribution and detection performance analysis*
+
+![Industry Benchmark Comparison](reports/dashboards/screenshots/analytics_industry_comparison.png)
+*Radar chart demonstrating industry-leading performance across all security metrics vs competitors*
 
 ```bash
-# Experience the platform locally
+# Experience the complete platform locally
 git clone https://github.com/suryaprakash737/cisco-data-science-journey
 cd cisco-data-science-journey
 pip install -r requirements.txt
-streamlit run dashboard/security_command_center.py
+streamlit run deployment/dashboard/complete_app.py
 ```
 
-**💻 Run Locally**: Follow the setup instructions above to experience the full platform
+**💻 Run Locally**: Follow the setup instructions above to experience the full enterprise security analytics platform
 
 ---
 
