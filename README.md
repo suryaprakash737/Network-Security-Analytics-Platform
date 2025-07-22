@@ -214,20 +214,6 @@ streamlit run dashboard/security_command_center.py
 
 ---
 
-## 🎯 **About This Project**
-
-This platform was developed as part of my **6-month Data Scientist transformation journey** targeting cybersecurity roles at enterprise companies like **Cisco**. The project demonstrates:
-
-- **Technical Excellence**: Industry-leading 99.1% ML model accuracy
-- **Business Acumen**: $9.7B+ quantified impact and ROI analysis  
-- **Enterprise Thinking**: Multi-stakeholder dashboards and executive reporting
-- **Domain Expertise**: Deep understanding of network security and threat detection
-
-**Built for**: Data Scientist roles in cybersecurity, network analytics, and enterprise security  
-**Target Companies**: Cisco, enterprise security firms, networking technology companies
-
----
-
 ## 📞 **Connect With Me**
 
 **SURYAPRAKASH UPPALAPATI** - Data Scientist  
