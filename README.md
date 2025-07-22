@@ -54,7 +54,7 @@ pip install -r requirements.txt
 streamlit run dashboard/security_command_center.py
 ```
 
-**🔗 [View Live Dashboard](http://your-demo-link.com)** | **📊 [Executive Briefing](http://your-demo-link.com/executive)**
+**💻 Run Locally**: Follow the setup instructions above to experience the full platform
 
 ---
 
