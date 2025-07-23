@@ -1,4 +1,17 @@
 # 🔒 Network Security Analytics Platform
+
+[➡️ Project Structure & Navigation Guide](./PROJECT_STRUCTURE.md)
+
+## Quick Navigation
+- [Project Structure](./PROJECT_STRUCTURE.md)
+- [Setup Instructions](#-quick-start-guide)
+- [Streamlit Cloud Demo](./streamlit-cloud/)
+- [Business Impact](#-key-achievements)
+- [Technical Architecture](#-technical-architecture)
+- [Contact](#-connect-with-me)
+
+---
+
 ## **Industry-Leading 99.1% Accuracy Threat Detection System**
 
 > **Enterprise-grade machine learning platform preventing $9.7+ billion in annual cyber attack losses**
