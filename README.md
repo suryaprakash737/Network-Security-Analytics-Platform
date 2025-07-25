@@ -1,9 +1,9 @@
 # 🔒 Network Security Analytics Platform
 
-[➡️ Project Structure & Navigation Guide](./PROJECT_STRUCTURE.md)
+[➡️ Project Structure & Navigation Guide](./streamlit-cloud/PROJECT_STRUCTURE.md)
 
 ## Quick Navigation
-- [Project Structure](./PROJECT_STRUCTURE.md)
+- [Project Structure](./streamlit-cloud/PROJECT_STRUCTURE.md)
 - [Setup Instructions](#-quick-start-guide)
 - [Streamlit Cloud Demo](./streamlit-cloud/)
 - [Business Impact](#-key-achievements)

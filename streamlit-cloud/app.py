@@ -7,27 +7,34 @@ import numpy as np
 import random
 import os
 
-# === PROFESSIONAL DEMO ENHANCEMENTS (Streamlit Cloud version only) ===
-
-# Set professional app title and branding
 st.set_page_config(
-    page_title="Network Security Analytics - 99.1% Accuracy Demo",
+    page_title="🔒 Network Security Command Center",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
+# === PROFESSIONAL DEMO ENHANCEMENTS (Streamlit Cloud version only) ===
+
+# Set professional app title and branding (only ONCE, right after imports)
+# st.set_page_config(
+#     page_title="Network Security Analytics - 99.1% Accuracy Demo",
+#     page_icon="🛡️",
+#     layout="wide",
+#     initial_sidebar_state="expanded"
+# )
+
 # Professional header at the top
 st.markdown("""
 <div style="padding: 2rem 0 1rem 0; text-align: center;">
-  <h1 style="font-size:2.5rem; font-weight:800; color:#1f2937; margin-bottom:0.5rem;">
+  <h1 style="font-size:2.5rem; font-weight:800; color:#0ea5e9; margin-bottom:0.5rem;">
     🛡️ Network Security Analytics Demo
   </h1>
   <h2 style="font-size:1.3rem; color:#4f46e5; font-weight:600; margin-bottom:1.5rem;">
     <span style="color:#10b981;">99.1% Accuracy</span> Intrusion Detection &mdash; <span style="color:#6366f1;">$9.7B+ Savings</span> &mdash; <span style="color:#a21caf;">973K+ Attacks Prevented</span>
   </h2>
-  <p style="font-size:1.1rem; color:#374151; max-width:700px; margin:0 auto 1.5rem auto;">
-    <b>Welcome, Hiring Manager!</b> This interactive demo showcases an enterprise-grade machine learning platform for network security analytics. Explore real-time dashboards, executive insights, and business impact &mdash; all powered by a production-ready ML system that outperforms the industry standard (99.1% vs 87.3% accuracy).
+  <p style="font-size:1.1rem; color:#f59e42; max-width:700px; margin:0 auto 1.5rem auto; font-weight:600;">
+    <b>Welcome..!!</b> This interactive demo showcases an enterprise-grade machine learning platform for network security analytics. Explore real-time dashboards, executive insights, and business impact &mdash; all powered by a production-ready ML system that outperforms the industry standard (99.1% vs 87.3% accuracy).
   </p>
 </div>
 """, unsafe_allow_html=True)
@@ -60,34 +67,15 @@ with st.expander("ℹ️ How to Use This Demo", expanded=True):
       [GitHub Repository](https://github.com/suryaprakash737/cisco-data-science-journey)
     """)
 
-# Sidebar branding and contact
-with st.sidebar:
-    st.markdown("""
-    <div style="text-align:center; margin-bottom:1.5rem;">
-      <h2 style="font-size:1.2rem; font-weight:700; color:#6366f1;">Network Security Analytics</h2>
-      <p style="font-size:1rem; color:#374151; margin-bottom:0.5rem;">99.1% Accuracy Demo</p>
-      <p style="font-size:0.95rem; color:#4b5563;">by <b>Suryaprakash Uppalapati</b></p>
-      <a href="mailto:suryaprakshu55@gmail.com" style="color:#2563eb; text-decoration:none;">suryaprakshu55@gmail.com</a><br/>
-      <a href="https://github.com/suryaprakash737/cisco-data-science-journey" target="_blank" style="color:#6366f1; text-decoration:none;">GitHub Repository</a>
-    </div>
-    <hr style="margin:1rem 0;"/>
-    <div style="font-size:0.95rem; color:#6b7280;">
-      <b>How to Use:</b><br/>
-      - Use the navigation at the top to explore dashboards.<br/>
-      - Each section demonstrates a different aspect of the platform.<br/>
-      - For questions, contact the author.
-    </div>
-    """, unsafe_allow_html=True)
-
 # === END PROFESSIONAL DEMO ENHANCEMENTS ===
 
 # Page configuration
-st.set_page_config(
-    page_title="🔒 Network Security Command Center",
-    page_icon="🛡️",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+# st.set_page_config(
+#     page_title="🔒 Network Security Command Center",
+#     page_icon="🛡️",
+#     layout="wide",
+#     initial_sidebar_state="expanded"
+# )
 
 # Professional executive styling
 st.markdown("""
@@ -654,7 +642,7 @@ def create_security_command_center(model_interface, data_connector):
     """Your original security command center dashboard"""
     
     # Header section
-    st.markdown('<p class="main-header">🔒 Network Security Command Center</p>', unsafe_allow_html=True)
+    st.markdown('<h1 style="font-size:2.8rem; font-weight:800; text-align:center; margin-bottom:0.5rem; color:#ff9800;">🔒 Network Security Command Center</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Executive Dashboard | Powered by 99.1% Accuracy ML Model | Real-time Threat Intelligence</p>', unsafe_allow_html=True)
     
     # Status bar
@@ -791,7 +779,6 @@ def create_security_command_center(model_interface, data_connector):
     st.markdown(f"""
     <div style="text-align: center; color: #6b7280; padding: 1rem;">
         <p><strong>🔒 Network Security Analytics Platform</strong> | Powered by Random Forest ML Model (99.1% Accuracy)</p>
-        <p>🚀 <strong>Ready for:</strong> FusionHacks 2 Hackathon | 💼 MLH Fellowship Portfolio | 🎯 Cisco Data Scientist Applications</p>
         <p><em>Protecting networks with {model_performance['accuracy_percent']:.1f}% accuracy • Preventing ${business_impact['annual_cost_savings']:,.0f} in annual losses</em></p>
     </div>
     """, unsafe_allow_html=True)
@@ -940,45 +927,52 @@ def main():
     
     # Initialize components
     model_interface, data_connector, briefing_engine = init_dashboard_components()
-    
-    # Sidebar Navigation
-    st.sidebar.markdown("## 🗂️ **Executive Navigation**")
-    st.sidebar.markdown("*Select your preferred dashboard view*")
-    
-    page_selection = st.sidebar.radio(
-        "Choose Dashboard:",
-        [
-            "🔒 Security Command Center",
-            "📋 Executive Briefing", 
-            "📊 Analytics Deep Dive"
-        ],
-        index=0
-    )
-    
-    # Add sidebar information
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("### 🎯 **System Status**")
-    st.sidebar.success("✅ ML Model: Online (99.1%)")
-    st.sidebar.success("✅ Threat Detection: Active") 
-    st.sidebar.success("✅ Data Pipeline: Operational")
-    
-    st.sidebar.markdown("### 📊 **Quick Stats**")
-    st.sidebar.metric("Today's Threats Blocked", "1,247")
-    st.sidebar.metric("Cost Savings Today", "$9.3M")
-    st.sidebar.metric("System Uptime", "99.8%")
-    
-    st.sidebar.markdown("---")
-    st.sidebar.markdown("""
-    ### 🚀 **Portfolio Project**
-    **Cisco Data Scientist Journey**  
-    *Month 1: Foundation Mastery*
-    
-    **Next Milestones:**
-    - FusionHacks 2 Hackathon
-    - MLH Fellowship Application
-    - Cisco Internship Application
-    """)
-    
+
+    # --- Sidebar Information Section (before dashboard selection) ---
+    with st.sidebar:
+        st.markdown(
+            """
+            <div style="text-align:center; margin-bottom:1.5rem;">
+              <h2 style="font-size:1.2rem; font-weight:700; color:#6366f1; margin-bottom:0.2rem;">Network Security Analytics</h2>
+              <p style="font-size:1rem; color:#374151; margin-bottom:0.5rem;">99.1% Accuracy Demo</p>
+              <p style="font-size:0.95rem; color:#4b5563; margin-bottom:0.5rem;">by <b>Suryaprakash Uppalapati</b></p>
+              <a href=\"mailto:suryaprakshu55@gmail.com\" style=\"color:#2563eb; text-decoration:none;\">suryaprakshu55@gmail.com</a><br/>
+              <a href=\"https://github.com/suryaprakash737/cisco-data-science-journey\" target=\"_blank\" style=\"color:#6366f1; text-decoration:none;\">GitHub Repository</a>
+            </div>
+            <hr style="margin:1rem 0;"/>
+            <div style="font-size:0.95rem; color:#6b7280; margin-bottom:1.5rem;">
+              <b>How to Use:</b><br/>
+              - Use the navigation at the top to explore dashboards.<br/>
+              - Each section demonstrates a different aspect of the platform.<br/>
+              - For questions, contact the author.
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+        st.markdown("---")
+        st.markdown("## 🗂️ **Executive Navigation**")
+        st.markdown("*Select your preferred dashboard view*")
+        page_selection = st.radio(
+            "Choose Dashboard:",
+            [
+                "🔒 Security Command Center",
+                "📋 Executive Briefing", 
+                "📊 Analytics Deep Dive"
+            ],
+            index=0
+        )
+        st.markdown("---")
+        st.markdown("### 🎯 **System Status**")
+        st.success("✅ ML Model: Online (99.1%)")
+        st.success("✅ Threat Detection: Active") 
+        st.success("✅ Data Pipeline: Operational")
+        st.markdown("### 📊 **Quick Stats**")
+        st.metric("Today's Threats Blocked", "1,247")
+        st.metric("Cost Savings Today", "$9.3M")
+        st.metric("System Uptime", "99.8%")
+        st.markdown("---")
+        # Removed Portfolio Project and Next Milestones section from sidebar
+
     # Route to appropriate page
     if page_selection == "📋 Executive Briefing":
         create_executive_briefing_page(briefing_engine, model_interface.get_model_performance())
@@ -989,3 +983,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    
